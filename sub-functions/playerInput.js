@@ -23,7 +23,7 @@ class PlayerInput {
     this.button.position(windowWidth/2 +100, windowHeight/2 + 30);
 
     //button pressed function
-    this.button.mousePressed(()=>{
+    touches.length > 0 && this.button.mousePressed(()=>{
       touches = [];
       this.input.hide();
       this.button.hide();
