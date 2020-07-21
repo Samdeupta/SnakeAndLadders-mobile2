@@ -32,7 +32,7 @@ class OptionWindow{
         this.end.endGame();
 
         //button pressed function
-        this.diceButton.mousePressed(()=>{
+        touches.length > 0 && this.diceButton.mousePressed(()=>{
             touches = [];
             if(turn === index){
                 this.diceRoll.DiceRolling();
