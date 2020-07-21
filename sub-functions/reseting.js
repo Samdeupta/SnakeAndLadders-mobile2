@@ -10,7 +10,7 @@ class Reseting{
         this.game = new Game();
         this.player = new Player();
         
-        this.resetButton.mousePressed(()=>{
+        touches.length > 0 && this.resetButton.mousePressed(()=>{
             //all reset functions
             this.reset.updateBlock1(1);
             this.reset.updateBlock2(1);
